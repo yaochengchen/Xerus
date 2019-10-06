@@ -1,0 +1,260 @@
+
+
+(PowerMonitor) Script Started....2018/05/08 16:30:51
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/08 16:35:47
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/08 16:42:58
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/11 17:34:03
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: 
+RELAYS 11111111111111 1
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/15 08:13:42
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/15 08:16:22
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 0 0 25.30 0.04 23 25 25 -100.00	-100.00	11111111111111	 180 0 80 0 38 4604 4607 0 10 0 0 23609 18163 23059 19531 22407 23 25 25 4605 17 2172 5081 0 706 0 0 0 1 2 9 3 0 0 1550 0 1550 1 1 0 0 0 0 0 0 4603 4607 11 0 0 9 0 25 25 0 0 8 1 0 0 0 0 0 0 2549 2458 9
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+
+
+(PowerMonitor) Script Started....2018/05/15 08:16:45
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/15 09:37:32
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/15 09:52:14
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+2018/05/15 22:02:16 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) loop: 1 trial: 1
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+
+
+(PowerMonitor) Script Started....2018/05/15 22:41:36
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+11111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/18 14:20:10
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+
+
+(PowerMonitor) Script Started....2018/05/18 14:20:27
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2018/05/21 15:02:53
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+2018/05/22 19:53:46 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) loop: 1 trial: 1
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+
+
+(PowerMonitor) Script Started....2018/05/24 23:53:56
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+Warning (V<Vshutdown): 1
+Warning (V<Vshutdown): 2
+Warning (V<Vshutdown): 3
+Call /home/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2018/05/24 23:57:46 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2018/05/24 23:58:09 Turning off the PC
+
+(PowerOff) shutdown -P now
+
+
+(PowerMonitor) Script Started....2018/05/24 23:59:25
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+Warning (V<Vshutdown): 1
+Warning (V<Vshutdown): 2
+
+
+(PowerMonitor) Script Started....2018/05/25 00:02:22
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+Warning (V<Vshutdown): 1
+Warning (V<Vshutdown): 2
+Warning (V<Vshutdown): 3
+Call /home/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2018/05/28 03:41:57 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2018/05/28 03:42:20 Turning off the PC
+
+(PowerOff) shutdown -P now
+
+
+(PowerMonitor) Script Started....2018/05/29 10:01:18
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+
+
+(PowerMonitor) Script Started....2018/05/29 10:01:30
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 11111111111111 1
+
+Reading HK data...
+2018/05/30 14:05:26 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) Arduino is found at: /dev/ttyUSB1 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB1  ?IDN: Arduino
+Warning (V<Vshutdown): 1
+Warning (V<Vshutdown): 2
+Warning (V<Vshutdown): 3
+Call /home/taroge/PowerMonitor/PowerOff.sh

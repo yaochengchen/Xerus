@@ -1,0 +1,10 @@
+(PowerOff) check previous address at /dev/ttyUSB1  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB1 Arduino
+(PowerOff) 2018/06/01 11:27:36 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2018/06/01 11:27:59 Turning off the PC
+Shutdown after 60 sec
+
+(PowerOff) shutdown -P now

@@ -1,0 +1,1201 @@
+
+
+(PowerMonitor) Script Started....2019/08/01 14:13:02
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+00000000000010
+
+Reading HK data...
+2019/08/01 14:14:11 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/01 14:16:34 Warning: The Power Board lost the MPPT controller: 1
+2019/08/01 14:17:31 Warning: The Power Board lost the MPPT controller: 2
+2019/08/01 14:18:26 Warning: The Power Board lost the MPPT controller: 3
+2019/08/01 14:19:22 Warning: The Power Board lost the MPPT controller: 4
+2019/08/01 14:20:19 Warning: The Power Board lost the MPPT controller: 5
+2019/08/01 14:21:14 Warning: The Power Board lost the MPPT controller: 6
+2019/08/01 14:22:10 Warning: The Power Board lost the MPPT controller: 7
+2019/08/01 14:23:07 Warning: The Power Board lost the MPPT controller: 8
+2019/08/01 14:24:03 Warning: The Power Board lost the MPPT controller: 9
+2019/08/01 14:24:58 Warning: The Power Board lost the MPPT controller: 10
+2019/08/01 14:25:54 Warning: The Power Board lost the MPPT controller: 11
+2019/08/01 14:26:50 Warning: The Power Board lost the MPPT controller: 12
+2019/08/01 14:27:45 Warning: The Power Board lost the MPPT controller: 13
+2019/08/01 14:28:41 Warning: The Power Board lost the MPPT controller: 14
+2019/08/01 14:29:36 Warning: The Power Board lost the MPPT controller: 15
+2019/08/01 14:30:31 Warning: The Power Board lost the MPPT controller: 16
+2019/08/01 14:31:27 Warning: The Power Board lost the MPPT controller: 17
+2019/08/01 14:32:22 Warning: The Power Board lost the MPPT controller: 18
+2019/08/01 14:33:17 Warning: The Power Board lost the MPPT controller: 19
+2019/08/01 14:34:13 Warning: The Power Board lost the MPPT controller: 20
+2019/08/01 14:34:13 Warning: Forced-Shutdown dut to lose the MPPT for more than 20 times in serial. 
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/01 14:34:20 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/01 14:34:43 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/01 14:35:57
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+00000000000010
+
+Reading HK data...
+2019/08/01 14:37:11 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+
+(PMKill.sh)
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+2019/08/01 14:37:39 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+2019/08/01 14:37:42 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 14:37:42 Killing the PID of the PowerMinotor 710 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+
+
+(PowerMonitor) Script Started....2019/08/01 15:49:59
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+00000000000010
+
+Reading HK data...
+
+(PMKill.sh)
+2019/08/01 15:50:54 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 15:50:57 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 15:50:57 Cannot find the PID of the PowerMonitor.sh. Maybe it is not running?
+(PMKill.sh) 
+
+
+
+(PowerMonitor) Script Started....2019/08/01 18:18:17
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/01 18:20:54 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 0 0 48.66 0.02 28 25 25 -100.00 -100.00 00010000000000 180 0 80 0 38 8861 8864 0 12 0 0 23397 18085 22900 19483 22323 28 25 25 8859 7 2173 9145 0 509 0 0 0 1 6 9 3 0 0 17 0 17 0 0 0 0 0 0 0 0 8837 8895 275 0 0 9 0 25 25 0 0 8 1 0 0 0 0 0 0 2549 2458 9000 1
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+
+(PMKill.sh)
+2019/08/01 18:21:47 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 18:21:50 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 18:21:50 Cannot find the PID of the PowerMonitor.sh. Maybe it is not running?
+(PMKill.sh) 
+
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+
+(PMKill.sh)
+2019/08/01 18:22:25 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 18:22:28 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 18:22:28 Cannot find the PID of the PowerMonitor.sh. Maybe it is not running?
+(PMKill.sh) 
+
+2019/08/01 18:24:10 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 0 0 48.67 0.02 28 25 25 -100.00 -100.00 00011000000000 180 0 80 0 38 8857 8855 0 12 0 0 23397 18085 22901 19483 22323 28 25 25 8861 8 2173 9145 0 509 0 0 0 1 6 9 3 0 0 17 0 17 0 0 0 0 0 0 0 0 8837 8895 275 0 0 9 0 25 25 0 0 8 1 0 0 0 0 0 0 2549 2458 9000 1
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+
+(PMKill.sh)
+2019/08/01 18:25:27 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 18:25:30 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 18:25:30 Cannot find the PID of the PowerMonitor.sh. Maybe it is not running?
+(PMKill.sh) 
+
+
+
+(PowerMonitor) Script Started....2019/08/01 19:24:39
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/01 19:26:23 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 0 0 48.42 0.02 28 25 25 -100.00 -100.00 11111111111111 180 0 80 0 38 8810 8812 0 12 0 0 23394 18084 22902 19483 22321 28 25 25 8815 8 2173 9145 0 510 0 0 0 1 6 9 3 0 0 17 0 17 0 0 0 0 0 0 0 0 8809 8895 275 0 0 9 0 25 25 0 0 8 1 0 0 0 0 0 0 2549 2458 9000 1
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+
+
+(PowerMonitor) Script Started....2019/08/01 19:29:02
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2019/08/01 19:38:26
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+(PMKill.sh)
+2019/08/01 19:39:18 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 19:39:21 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 19:39:21 Killing the PID of the PowerMinotor 716 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+
+(PowerMonitor) Script Started....2019/08/01 21:07:21
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/01 21:12:14 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 00011110000000
+(FindDevice) Arduino is found at: /dev/ttyUSB0 00011110000000
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+
+(PMKill.sh)
+2019/08/01 21:12:54 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 21:12:57 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 21:12:57 Killing the PID of the PowerMinotor 664 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+
+(PowerMonitor) Script Started....2019/08/01 21:32:27
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+(PMKill.sh)
+2019/08/01 21:33:09 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/01 21:33:12 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 21:33:12 Killing the PID of the PowerMinotor 702 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+ (PMResumed.sh)
+2019/08/01 21:46:17 Preparing to kill the PowerMonitor...Please remember to resume the PowerMonitor in 30 minutes.
+2019/08/01 21:46:18 Check if the PowerMonitor is already running...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/01 21:46:18 Trying to find the PID of the PowerMonitor. Resume the PowerMonitor
+(PMResumed.sh)
+
+
+
+(PowerMonitor) Script Started....2019/08/01 21:46:18
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/01 21:47:08 The battery voltage is lower than the shutdown level: 1
+2019/08/01 21:48:09 The battery voltage is lower than the shutdown level: 2
+2019/08/01 21:49:10 The battery voltage is lower than the shutdown level: 3
+2019/08/01 21:49:10 Warning: Battery voltage lower than shutdown voltage. System is going to power off
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/01 21:49:25 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/01 21:49:48 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+                                                                                                                                                                                                                                                                                                                                                                       
+
+(PowerMonitor) Script Started....2019/08/06 19:23:45
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/06 19:25:34 Warning: The Power Board lost the MPPT controller: 1
+2019/08/06 19:26:32 Warning: The Power Board lost the MPPT controller: 2
+2019/08/06 19:27:28 Warning: The Power Board lost the MPPT controller: 3
+2019/08/06 19:28:25 Warning: The Power Board lost the MPPT controller: 4
+2019/08/06 19:29:21 Warning: The Power Board lost the MPPT controller: 5
+2019/08/06 19:30:18 Warning: The Power Board lost the MPPT controller: 6
+2019/08/06 19:31:15 Warning: The Power Board lost the MPPT controller: 7
+2019/08/06 19:32:12 Warning: The Power Board lost the MPPT controller: 8
+
+(PMKill.sh)
+2019/08/06 19:32:14 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/06 19:32:17 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/06 19:32:17 Killing the PID of the PowerMinotor 695 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+
+(PowerMonitor) Script Started....2019/08/06 19:52:21
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/06 19:53:09 Warning: The Power Board lost the MPPT controller: 1
+2019/08/06 19:54:06 Warning: The Power Board lost the MPPT controller: 2
+2019/08/06 19:55:02 Warning: The Power Board lost the MPPT controller: 3
+2019/08/06 19:56:00 Warning: The Power Board lost the MPPT controller: 4
+2019/08/06 19:56:57 Warning: The Power Board lost the MPPT controller: 5
+2019/08/06 19:57:53 Warning: The Power Board lost the MPPT controller: 6
+2019/08/06 19:58:50 Warning: The Power Board lost the MPPT controller: 7
+2019/08/06 19:59:46 Warning: The Power Board lost the MPPT controller: 8
+2019/08/06 20:00:42 Warning: The Power Board lost the MPPT controller: 9
+2019/08/06 20:01:39 Warning: The Power Board lost the MPPT controller: 10
+2019/08/06 20:02:35 Warning: The Power Board lost the MPPT controller: 11
+2019/08/06 20:03:32 Warning: The Power Board lost the MPPT controller: 12
+2019/08/06 20:04:28 Warning: The Power Board lost the MPPT controller: 13
+2019/08/06 20:05:24 Warning: The Power Board lost the MPPT controller: 14
+2019/08/06 20:06:21 Warning: The Power Board lost the MPPT controller: 15
+2019/08/06 20:07:17 Warning: The Power Board lost the MPPT controller: 16
+2019/08/06 20:08:14 Warning: The Power Board lost the MPPT controller: 17
+2019/08/06 20:09:10 Warning: The Power Board lost the MPPT controller: 18
+2019/08/06 20:10:07 Warning: The Power Board lost the MPPT controller: 19
+2019/08/06 20:11:04 Warning: The Power Board lost the MPPT controller: 20
+2019/08/06 20:11:04 Warning: Forced-Shutdown dut to lose the MPPT for more than 20 times in serial. 
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/06 20:11:11 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/06 20:11:34 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/06 20:13:24
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/06 20:14:10 Warning: The Power Board lost the MPPT controller: 1
+
+(PMKill.sh)
+2019/08/06 20:14:15 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/06 20:14:18 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/06 20:14:18 Killing the PID of the PowerMinotor 732 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+
+(PowerMonitor) Script Started....2019/08/07 15:48:06
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/07 15:48:50 Warning: The Power Board lost the MPPT controller: 1
+2019/08/07 15:49:48 Warning: The Power Board lost the MPPT controller: 2
+2019/08/07 15:50:45 Warning: The Power Board lost the MPPT controller: 3
+2019/08/07 15:51:41 Warning: The Power Board lost the MPPT controller: 4
+2019/08/07 15:52:39 Warning: The Power Board lost the MPPT controller: 5
+2019/08/07 15:53:36 Warning: The Power Board lost the MPPT controller: 6
+2019/08/07 15:54:33 Warning: The Power Board lost the MPPT controller: 7
+2019/08/07 15:55:30 Warning: The Power Board lost the MPPT controller: 8
+2019/08/07 15:56:27 Warning: The Power Board lost the MPPT controller: 9
+2019/08/07 15:57:24 Warning: The Power Board lost the MPPT controller: 10
+2019/08/07 15:58:21 Warning: The Power Board lost the MPPT controller: 11
+2019/08/07 15:59:18 Warning: The Power Board lost the MPPT controller: 12
+2019/08/07 16:00:14 Warning: The Power Board lost the MPPT controller: 13
+2019/08/07 16:01:11 Warning: The Power Board lost the MPPT controller: 14
+2019/08/07 16:02:08 Warning: The Power Board lost the MPPT controller: 15
+2019/08/07 16:03:05 Warning: The Power Board lost the MPPT controller: 16
+2019/08/07 16:04:03 Warning: The Power Board lost the MPPT controller: 17
+2019/08/07 16:04:59 Warning: The Power Board lost the MPPT controller: 18
+2019/08/07 16:05:56 Warning: The Power Board lost the MPPT controller: 19
+2019/08/07 16:06:52 Warning: The Power Board lost the MPPT controller: 20
+2019/08/07 16:06:52 Warning: Forced-Shutdown dut to lose the MPPT for more than 20 times in serial. 
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/07 16:06:58 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/07 16:07:21 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/07 16:12:12
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/07 16:13:17 Warning: The Power Board lost the MPPT controller: 1
+2019/08/07 16:14:10 The battery voltage is lower than the shutdown level: 1
+2019/08/07 16:15:10 The battery voltage is lower than the shutdown level: 2
+
+(PMKill.sh)
+2019/08/07 16:16:19 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/07 16:16:22 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/07 16:16:22 Killing the PID of the PowerMinotor 721 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+ (PMResumed.sh)
+2019/08/07 16:21:25 Preparing to kill the PowerMonitor...Please remember to resume the PowerMonitor in 30 minutes.
+2019/08/07 16:21:26 Check if the PowerMonitor is already running...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/07 16:21:26 Trying to find the PID of the PowerMonitor. Resume the PowerMonitor
+(PMResumed.sh)
+
+
+
+(PowerMonitor) Script Started....2019/08/07 16:21:26
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/07 16:26:10 no HK data string. seems lost Arduino... 
+(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+
+(PMKill.sh)
+(FindDevice) loop: 1 trial: 1
+2019/08/07 16:27:13 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/07 16:27:16 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/07 16:27:16 Killing the PID of the PowerMinotor 3461 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+ (PMResumed.sh)
+2019/08/07 16:29:08 Preparing to kill the PowerMonitor...Please remember to resume the PowerMonitor in 30 minutes.
+2019/08/07 16:29:09 Check if the PowerMonitor is already running...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/07 16:29:09 Trying to find the PID of the PowerMonitor. Resume the PowerMonitor
+(PMResumed.sh)
+
+
+
+(PowerMonitor) Script Started....2019/08/07 16:29:09
+(PowerMonitor) loading variables....(FindDevice) Here
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2019/08/07 17:51:44
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2019/08/07 22:11:39
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/08 15:03:43 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+
+
+(PowerMonitor) Script Started....2019/08/11 04:54:51
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/12 14:40:46 Warning: The Power Board lost the MPPT controller: 1
+
+(PMKill.sh)
+2019/08/12 14:49:07 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/12 14:49:11 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/12 14:49:11 Killing the PID of the PowerMinotor 771 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/12 21:36:17 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/12 21:36:40 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/12 21:50:13
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+(PMKill.sh)
+2019/08/12 21:51:06 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/12 21:51:09 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/12 21:51:09 Killing the PID of the PowerMinotor 770 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/12 21:53:02 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/12 21:53:25 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/12 21:56:24
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+                                                                                                                                                                                                                                                                                                           
+
+(PowerMonitor) Script Started....2019/08/12 22:34:45
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/12 22:40:26 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/12 22:42:53 The battery voltage is lower than the shutdown level: 1
+2019/08/12 22:43:53 The battery voltage is lower than the shutdown level: 2
+2019/08/12 22:44:53 The battery voltage is lower than the shutdown level: 3
+2019/08/12 22:44:53 Warning: Battery voltage lower than shutdown voltage. System is going to power off
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/12 22:44:59 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/12 22:45:22 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/12 22:51:15
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/12 22:52:56 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+                                                                                                                                                                           
+
+(PowerMonitor) Script Started....2019/08/12 22:58:58
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/12 23:00:48 The battery voltage is lower than the shutdown level: 1
+2019/08/12 23:01:48 The battery voltage is lower than the shutdown level: 2
+2019/08/12 23:02:48 The battery voltage is lower than the shutdown level: 3
+2019/08/12 23:02:48 Warning: Battery voltage lower than shutdown voltage. System is going to power off
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/12 23:02:54 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/12 23:03:18 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/12 23:09:09
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/12 23:17:56 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/12 23:18:19 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/12 23:24:08
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/12 23:43:03 The battery voltage is lower than the shutdown level: 1
+2019/08/12 23:44:03 The battery voltage is lower than the shutdown level: 2
+2019/08/12 23:45:04 The battery voltage is lower than the shutdown level: 3
+2019/08/12 23:45:04 Warning: Battery voltage lower than shutdown voltage. System is going to power off
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/12 23:45:10 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/12 23:45:33 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/12 23:47:24
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+
+(PMKill.sh)
+2019/08/12 23:48:53 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+2019/08/12 23:48:56 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/12 23:48:56 Killing the PID of the PowerMinotor 809 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+ (PMResumed.sh)
+2019/08/12 23:49:34 Preparing to kill the PowerMonitor...Please remember to resume the PowerMonitor in 30 minutes.
+2019/08/12 23:49:35 Check if the PowerMonitor is already running...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/12 23:49:36 Trying to find the PID of the PowerMonitor. Resume the PowerMonitor
+(PMResumed.sh)
+
+
+
+(PowerMonitor) Script Started....2019/08/12 23:49:36
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/12 23:56:24 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 0 0 49.25 0.05 27 25 25 27.50 30.00 00000000000000 180 0 80 0 38 8965 8967 0 11 0 0 23394 18085 22897 19481 22321 27 25 25 8965 22 2173 9145 0 668 0 0 0 1 6 9 3 0 0 17 0 17 0 0 0 0 0 0 0 0 8962 9123 319 0 0 9 0 25 25 0 0 8 1 0 0 0 0 0 0 2549 2458 9000 1080
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+
+(PMKill.sh)
+2019/08/12 23:57:26 Preparing to kill the PowerMonitor. Please resume the PowerMonitor in 30 minutes.
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+2019/08/12 23:57:29 Trying to find the PID of the PowerMonitor...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/12 23:57:29 Killing the PID of the PowerMinotor 2209 ...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+(PMKill.sh) 
+
+
+ (PMResumed.sh)
+2019/08/13 00:04:44 Preparing to kill the PowerMonitor...Please remember to resume the PowerMonitor in 30 minutes.
+2019/08/13 00:04:45 Check if the PowerMonitor is already running...
+
+ (PMFind.sh)
+(PMFind.sh)
+
+2019/08/13 00:04:45 Trying to find the PID of the PowerMonitor. Resume the PowerMonitor
+(PMResumed.sh)
+
+
+
+(PowerMonitor) Script Started....2019/08/13 00:04:45
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/13 00:07:23 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 0 0 49.21 0.06 27 25 25 27.40 30.60 11111111111111 180 0 80 0 38 8957 8952 0 12 0 0 23394 18085 22899 19482 22322 27 25 25 8957 24 2173 9145 0 668 0 0 0 1 6 9 3 0 0 17 0 17 0 0 0 0 0 0 0 0 8956 9123 319 0 0 9 0 25 25 0 0 8 1 0 0 0 0 0 0 2549 2458 9000 1080
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/13 00:09:46 The battery voltage is lower than the shutdown level: 1
+2019/08/13 00:11:36 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/13 00:13:01 The battery voltage is lower than the shutdown level: 1
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/13 00:13:32 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/13 00:13:55 Turning off the PC
+
+2019/08/13 00:14:02 The battery voltage is lower than the shutdown level: 2
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/13 00:20:35
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/13 00:22:25 The battery voltage is lower than the shutdown level: 1
+2019/08/13 00:28:27 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/13 00:32:51 The battery voltage is lower than the shutdown level: 1
+2019/08/13 00:33:52 The battery voltage is lower than the shutdown level: 2
+2019/08/13 00:34:54 The battery voltage is lower than the shutdown level: 3
+2019/08/13 00:34:54 Warning: Battery voltage lower than shutdown voltage. System is going to power off
+Call /home/taroge4/taroge/PowerMonitor/PowerOff.sh
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/13 00:35:01 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/13 00:35:24 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/13 00:38:36
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/13 00:39:49 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: 
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/13 00:42:10 Warning: The Power Board lost the MPPT controller: 1
+2019/08/13 00:43:03 Warning: The Power Board lost the MPPT controller: 2
+
+
+(PowerMonitor) Script Started....2019/08/13 08:18:13
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/13 22:55:21 Warning: The Power Board lost the MPPT controller: 1
+2019/08/13 22:56:16 Warning: The Power Board lost the MPPT controller: 2
+(PowerOff) check previous address at /dev/ttyUSB0  ?IDN: Arduino
+(PowerOff) Arduino is found at: /dev/ttyUSB0 Arduino
+(PowerOff) 2019/08/13 23:57:41 Houston, We've Got a Problem 
+(PowerOff) Turning off DAQ
+(PowerOff) Turning off the relay of devices
+
+(PowerOff) 2019/08/13 23:58:04 Turning off the PC
+
+(PowerOff) sudo shutdown -P now
+
+
+(PowerMonitor) Script Started....2019/08/14 00:03:36
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS ALLON 1
+
+Reading HK data...
+2019/08/14 00:11:26 no HK data string. seems lost Arduino... 
+(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: ERROR: Wrong $ACTION
+(FindDevice) /dev/ttyUSB1  ?IDN: 
+(FindDevice) /dev/ttyUSB2  ?IDN: 
+(FindDevice) /dev/ttyUSB3  ?IDN: 
+(FindDevice) /dev/ttyUSB4  ?IDN: 
+(FindDevice) /dev/ttyUSB5  ?IDN: 
+(FindDevice) /dev/ttyUSB6  ?IDN: 
+(FindDevice) /dev/ttyUSB7  ?IDN: 
+(FindDevice) /dev/ttyUSB8  ?IDN: 
+(FindDevice) /dev/ttyUSB9  ?IDN: 
+(FindDevice) /dev/ttyUSB10  ?IDN: 
+(FindDevice) loop: 1 trial: 1
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Reconnect to /dev/ttyUSB0  ?IDN: Arduino
+2019/08/14 00:13:46 The battery voltage is lower than the shutdown level: 1

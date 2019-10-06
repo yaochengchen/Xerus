@@ -1,0 +1,73 @@
+
+
+(PowerMonitor) Script Started....2017/12/27 11:06:56
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 1000000000000
+
+RELAYS 1100000000000
+
+RELAYS 1110000000000
+
+RELAYS 1111000000000
+
+RELAYS 1111100000000
+
+RELAYS 1111110000000
+
+RELAYS 1111111000000
+
+RELAYS 1111111100000
+
+RELAYS 1111111110000
+
+RELAYS 1111111111000
+
+RELAYS 1111111111100
+
+RELAYS 1111111111110
+
+RELAYS 1111111111111
+
+Reading HK data...
+
+
+(PowerMonitor) Script Started....2017/12/27 11:12:27
+(PowerMonitor) loading variables....(FindDevice) Looking for /dev/ttyUSB
+(FindDevice) loop: 1 trial: 0
+(FindDevice) /dev/ttyUSB0  ?IDN: Arduino
+(FindDevice) Arduino is found at: /dev/ttyUSB0 Arduino
+(FindDevice) finished
+1 Sending commands to /dev/ttyUSB0  ?IDN: Arduino
+RELAYS 1000000000000
+
+RELAYS 1100000000000
+11000000000000
+
+RELAYS 1110000000000
+
+RELAYS 1111000000000
+
+RELAYS 1111100000000
+
+RELAYS 1111110000000
+
+RELAYS 1111111000000
+
+RELAYS 1111111100000
+
+RELAYS 1111111110000
+
+RELAYS 1111111111000
+
+RELAYS 1111111111100
+
+RELAYS 1111111111110
+
+RELAYS 1111111111111
+
+Reading HK data...

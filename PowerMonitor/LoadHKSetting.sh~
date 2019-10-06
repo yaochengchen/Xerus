@@ -1,0 +1,56 @@
+#S.H. Wang 2017
+#S.Y. Hsu 2017 for TAROGE-3
+#define all common variables across multiple scripts related to HK
+#source LoadHKSetting.sh
+
+#!/bin/bash
+
+#housekeeping file
+PeriodHKTaking=48	#60, NOTICE: Taking all HKData from MPPT takes ~12s, so the period of taking the HKData is this $PeriodHKTaking + 11s.
+HKDataDir="${UserDir}hkData/"		#"${UserDir}arduino-powercontrol/"
+HKFilePrefix="${HKDataDir}hkSummary"
+HKFileExt=".txt"
+
+#threshold for warning and shutdown
+DiskSpaceLow_KB=1000000		#382965000
+TempOverheat=85
+
+#1count = $PeriodHKTaking+12s
+Num_ShutPC=3
+MaxNumOverheat=3
+MaxNumLowDisk=3
+MaxNumFailMPPT=20
+	
+#power control log
+PowControlDir="${UserDir}PowerMonitor/"
+PowControlLog="${PowControlDir}/HKLog/PowControlLog-$(date '+%0Y%0m').txt"
+ScriptFindDevice="${PowControlDir}FindDevice.sh"
+ScriptPowerOff="${PowControlDir}PowerOff.sh"
+
+#arduino-serial
+ExeDir="${UserDir}PowerMonitor/"
+
+#Unified warnig message
+DirSysWarning="${UserDir}schedule/warning/"
+SysWarningMessageTxt="${DirSysWarning}warning_message.txt"
+ScriptPowerOffMail="${UserDir}schedule/mail_Shutdown.sh"
+
+#arduino
+#must set this correctly: ttyUSB or ttyACM 
+ArduinoIDNTxt="${PowControlDir}ArduinoIDN.txt"
+ArduinoSerialCmd="${ExeDir}arduino-serial"
+ArduinoDevPrefix="/dev/ttyUSB"	#"/dev/ttyACM"	#
+ArduinoIDN="Arduino"
+ArduinoBaudRate=9600
+NumRelay=14  #Not used in TAROGE-3
+
+ArduinoWaitCount=3600		#each count = 1 sec; postponse wakeup process for PC cooldown in case of overheat
+
+#test for DAQ interrupt
+#DAQInterruptTxt0="${UserDir}data/interrupt0.txt"
+#DAQInterruptTxt="${UserDir}data/interrupt.txt"	#TAROGE-2
+DAQInterruptTxt="${UserDir}source/taroge2/DAQstate.txt"
+
+#DAQ power 
+PowerReadyTxt="${UserDir}source/taroge2/PowerReady.txt"
+

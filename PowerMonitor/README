@@ -1,0 +1,28 @@
+TAROGE-3 Power Monitor Code
+by S-H Wang and S-Y Hsu
+
+For installing the power monitor code, please put the directory "PowerMonitor" under /home/$USER and execuate the following commands:
+
+--
+cd /home/$USER/PowerMonitor/
+sudo chmod +x *.sh
+sudo chmod +x arduino-serial
+mkdir /home/$USER/hkData
+sudo apt-get install lm-sensors
+--
+
+Please modified the following contents of the file "PowerMonitor.sh" according to the environment of the computer.
+UserDir="/home/taroge/" --> UserDir="/home/$USER/"
+DiskSpace_KB=$(df | grep '/dev/sda2' | awk '{print $4}') --> DiskSpace_KB=$(df | grep '$Filesystem' | awk '{print $4}')
+
+The $Filesystem can be got by the command:
+df
+
+Using the following command to execuate the program automatically when it bootup.
+crontab -e
+
+#To shutdown the computer without the password
+*Using the command:
+sudo visudo
+*Put these in the file. (and the $USER_NAME shuold be "taroge" for TAROGE-3.)
+$USER_NAME ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown
