@@ -1,0 +1,222 @@
+ps6000conT4 starts with threshold 1610.000
+string(dirp->d_name) = 20190812
+string(dirp->d_name) = 20190801
+string(dirp->d_name) = 20190808
+string(dirp->d_name) = 20190811
+string(dirp->d_name) = 20190813
+string(dirp->d_name) = 20190709
+string(dirp->d_name) = 20190810
+string(dirp->d_name) = 20190705
+string(dirp->d_name) = 20190814
+string(dirp->d_name) = ..
+string(dirp->d_name) = .
+string(dirp->d_name) = 20190809
+string(dirp->d_name) = 20190704
+string(dirp->d_name) = 20190807
+string(dirp->d_name) = 20190812
+string(dirp->d_name) = 20190520
+string(dirp->d_name) = 20190528
+string(dirp->d_name) = 20190801
+string(dirp->d_name) = 20190808
+string(dirp->d_name) = 20190811
+string(dirp->d_name) = 20190712
+string(dirp->d_name) = 20190711
+string(dirp->d_name) = 20190603
+string(dirp->d_name) = 20190611
+string(dirp->d_name) = 20190813
+string(dirp->d_name) = 20190713
+string(dirp->d_name) = 20190604
+string(dirp->d_name) = 20190524
+string(dirp->d_name) = 20190709
+string(dirp->d_name) = 20190605
+string(dirp->d_name) = 20190810
+string(dirp->d_name) = 20190525
+string(dirp->d_name) = 20190612
+string(dirp->d_name) = 20190522
+string(dirp->d_name) = 20190521
+string(dirp->d_name) = 20190523
+string(dirp->d_name) = 20190715
+string(dirp->d_name) = 20190719
+string(dirp->d_name) = 20190531
+string(dirp->d_name) = 20190705
+string(dirp->d_name) = 20190717
+string(dirp->d_name) = 20190814
+string(dirp->d_name) = 20190718
+string(dirp->d_name) = 20190710
+string(dirp->d_name) = 20190714
+string(dirp->d_name) = 20190527
+string(dirp->d_name) = ..
+string(dirp->d_name) = 20190610
+string(dirp->d_name) = .
+string(dirp->d_name) = 20190809
+string(dirp->d_name) = 20190716
+string(dirp->d_name) = 20190704
+string(dirp->d_name) = 20190807
+PS6000 driver example program
+
+Enumerating Units...
+Found 2 devices, opening...
+
+Handle: 1
+Device opened successfully, cycle 1
+
+
+SetDefaults
+Model	:   6403C
+S/N	: GQ828/005
+		------> match scopeID: 0
+
+Handle: 2
+Device opened successfully, cycle 2
+
+
+SetDefaults
+Model	:   6403C
+S/N	: GQ828/012
+		------> match scopeID: 1
+
+# of picoscopes found: 2
+1) Picoscope   6403C S/N: GQ828/005 handle: 1
+2) Picoscope   6403C S/N: GQ828/012 handle: 2
+
+Setting up picoscopes...
+
+1) Picoscope   6403C S/N: GQ828/005 handle: 1
+
+Set Voltage
+Channel A:  - 500 mV
+Channel B:  - 500 mV
+Channel C:  - 500 mV
+Channel D:  - 500 mV
+
+SetDefaults
+
+SetTimebase 
+Current Timebase 1 - 0.00
+Specify timebase: Timebase 2 - 0.80 ns
+
+SetSignalGenerator
+
+SetSigGenTaroge at scope : GQ828/005
+	
+
+offset = 0 mV, pkTopk = 700 mV, frequency = 10 MHz
+
+Enter SetTriggersTaroge for unit 1
+Collects when value rises past 399mV
+
+SetDefaults
+
+Final settings:
+
+DisplaySettings 
+Timebase 2 - 0.80 ns
+
+Readings will be scaled in (mV)
+Channel A Voltage Range = 500mV
+	channel coupling: 2
+Channel B Voltage Range = 500mV
+	channel coupling: 2
+Channel C Voltage Range = 500mV
+	channel coupling: 2
+Channel D Voltage Range = 500mV
+	channel coupling: 2
+
+
+2) Picoscope   6403C S/N: GQ828/012 handle: 2
+
+Set Voltage
+Channel A:  - 500 mV
+Channel B:  - 500 mV
+Channel C:  - 500 mV
+Channel D:  - 500 mV
+
+SetDefaults
+
+SetTimebase 
+Current Timebase 2 - 0.80
+Specify timebase: Timebase 2 - 0.80 ns
+
+SetSignalGenerator
+
+Enter SetTriggersTaroge for unit 2
+Collects when value rises past 399mV
+
+SetDefaults
+
+Final settings:
+
+DisplaySettings 
+Timebase 2 - 0.80 ns
+
+Readings will be scaled in (mV)
+Channel A Voltage Range = 500mV
+	channel coupling: 2
+Channel B Voltage Range = 500mV
+	channel coupling: 2
+Channel C Voltage Range = 500mV
+	channel coupling: 2
+Channel D Voltage Range = 500mV
+	channel coupling: 2
+
+intDate: 20190814
+20190814
+20190814
+folder data/20190814 already exists
+run number = 1871
+CreateDataTreeBranches(): t	TAROGE data
+tr: create branch for waveform T1H
+tr: create branch for waveform T2H
+tr: create branch for waveform T3H
+tr: create branch for waveform T4H
+tr: create branch for waveform T1V
+tr: create branch for waveform T2V
+tr: create branch for waveform T3V
+tr: create branch for waveform T4V
+Event: 0, bad event = 0
+	forced trigger: run 1871 event 7	312
+corruted FPGA timestamp or trig info: size 21
+	forced trigger: run 1871 event 42	-1
+	forced trigger: run 1871 event 93	312
+99 event rate: 97/14551449 us = 6.666 Hz
+
+	forced trigger: run 1871 event 139	312
+	forced trigger: run 1871 event 193	312
+199 event rate: 98/15603881 us = 6.2805 Hz
+
+	forced trigger: run 1871 event 270	312
+299 event rate: 99/15612200 us = 6.3412 Hz
+
+399 event rate: 100/14706896 us = 6.7995 Hz
+
+	forced trigger: run 1871 event 400	312
+	forced trigger: run 1871 event 424	312
+	forced trigger: run 1871 event 477	312
+499 event rate: 97/14809012 us = 6.5501 Hz
+
+	forced trigger: run 1871 event 533	312
+599 event rate: 99/14698197 us = 6.7355 Hz
+
+	forced trigger: run 1871 event 641	312
+699 event rate: 99/14813786 us = 6.683 Hz
+
+	forced trigger: run 1871 event 726	312
+799 event rate: 99/14909058 us = 6.6403 Hz
+
+	forced trigger: run 1871 event 800	312
+899 event rate: 99/14309633 us = 6.9184 Hz
+
+	forced trigger: run 1871 event 968	312
+	forced trigger: run 1871 event 992	312
+999 event rate: 98/14811789 us = 6.6164 Hz
+
+Event: 1000, bad event = 0
+	forced trigger: run 1871 event 1046	312
+	forced trigger: run 1871 event 1077	312
+got interrupt signal (!bRunDAQ or stopDAQ)
+ total event = 1079, bad event = 0
+done
+1609
+ tune v to 1609
+total event = 1079, bad event = 0
+munmap_chunk(): invalid pointer

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/ps6000con.dir/src/ps6000con.c.o  -o ps6000con  -L/opt/picoscope/lib -rdynamic -lps6000 -Wl,-rpath,/opt/picoscope/lib 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/taroge/source/taroge2/src/ps6000con.c
+stdio.h
+-
+stdlib.h
+-
+termios.h
+-
+unistd.h
+-
+sys/ioctl.h
+-
+sys/types.h
+-
+windows.h
+/home/taroge/source/taroge2/src/windows.h
+conio.h
+-
+string.h
+-
+ps6000Api.h
+/home/taroge/source/taroge2/src/ps6000Api.h
+picoStatus.h
+/home/taroge/source/taroge2/src/picoStatus.h
+
+include/picoStatus.h
+stdint.h
+-
+
+include/ps6000Api.h
+stdint.h
+-
+picoStatus.h
+include/picoStatus.h
+
